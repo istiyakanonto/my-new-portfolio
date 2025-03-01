@@ -6,6 +6,14 @@
     font-variation-settings:
       "wdth" 100;
   }
+  /*share style*/
+.text-primary{
+    color: #FD6E0A;
+}
+  
+  .secondary-bg{
+    background-color: #FFF8F3;
+  }
   .dark-2{
     color: #474747
   }
@@ -32,6 +40,25 @@
     border-color: #FD6E0A;
 
   }
+  .text-center {
+    text-align:center;
+  }
+  .text-margin{
+    
+  }
+/* Section part */
+  .section-title{
+    font-size:35px;
+    font-weight: bold;
+    color: #181818;
+  }
+  .section-description
+  {
+    font-size:18px;
+    color: #757575;
+    padding:80px
+
+  }
   /*header*/
   .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
@@ -39,10 +66,7 @@
     background-position: top left, bottom right;
   }
 
-/*share style*/
-.text-primary{
-    color: #FD6E0A;
-}
+
 
 /*Nav style*/
 nav{
@@ -91,4 +115,100 @@ nav ul li a{
 }
 .banner-pic{
     width: 580px;
+}
+/* main styles */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px
+}
+
+/* About styles */
+.about{
+border-radius: 10px;
+padding: 130px 150px;
+text-align: center;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight:bold;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    
+}
+.skill-description{
+  
+}
+.skill{
+   padding: 30px;
+   box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06)
+}
+
+/* Resume section */
+.resume-container{
+  display: flex;
+  gap: 24px;
+ 
+}
+
+.experience-description{
+  color: rgba(117, 117, 117, 1);
+  font-size: 16px;
+}
+.section-title{
+  color: black;
+  font-weight: bold;
+  
+}
+.resume-column-title{
+  color: black;
+  font-weight: bold;
+}
+.experience-sub-title{
+  color: rgba(117, 117, 117, 1);
+  font-weight: 400px;
+}
+.resume hr{
+margin: 30 0px 30px 0px;
+}
+.cv-download-container{
+  margin-top:50px
+}
+/* Footer Section */
+.main-footer{
+  display: flex;
+  padding: 130px 230px ;
+  gap: 100px;
+}
+.footer-colomn{
+  width: 50%;
+}
+.icon-image{
+  margin-top:30px
+}
+.main-footer input[type="text"]{
+  height:64px;
+  width:100%;
+  background-color: #FFFFFF;
+  color: rgba(117, 117, 117, 1);
+  margin: 10px 0px;
+  padding-left: 20px;
+}
+.main-footer textarea{
+  width:100%;
+  background-color: #FFFFFF;
+  color: rgba(117, 117, 117, 1);
+  margin: 10px 0px;
+  padding-left: 20px;
+  padding-top: 20px;
+
 }
